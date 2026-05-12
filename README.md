@@ -1,6 +1,6 @@
 # Technical Writing & Localization Portfolio | Xinyue Chen 陈心悦
 
-I am a recent MA Translation and Localisation graduate seeking Technical Writer roles that require strong English writing, structured documentation, and localization awareness.
+I am a recent MA Translation and Localisation graduate seeking Technical Writer roles that require clear English writing, well-organized documentation, and localization awareness.
 
 My academic background is in translation and localisation, and my previous experience in game system design shaped my interest in user flows, information structure, and cross-functional communication. This portfolio shows how I am applying that background to technical documentation through self-directed and coursework-based samples.
 
@@ -13,7 +13,7 @@ This repository includes selected samples in technical writing, localization wor
 | Project | Type | Links | What it demonstrates |
 |---|---|---|---|
 | **01. PLA Edge Lifting Troubleshooting Guide** | Self-directed troubleshooting guide | [PDF](01_PLA_Edge_Lifting_Troubleshooting/PLA_Edge_Lifting_Troubleshooting.pdf) · [HTML output](https://whyamistilleatin.github.io/technical-writing-localization-portfolio/01_PLA_Edge_Lifting_Troubleshooting/html_output/index.html) · [DITA source](01_PLA_Edge_Lifting_Troubleshooting/PLA_DITA_Source/) | Scope control, symptom-based troubleshooting, task-oriented writing, DITA-based PDF/HTML output |
-| **02. Markdown Pre-translation Processing Guide** | Process guide / localization workflow sample | [PDF](02_Markdown_Pretranslation_Processing/Markdown_Pretranslation_Processing_Guide.pdf) | Markdown source-file handling, regular expressions (Regex), structure-sensitive content identification, localization QA thinking |
+| **02. Markdown Pre-translation Processing Guide** | Process guide / localization workflow sample | [PDF](02_Markdown_Pretranslation_Processing/Markdown_Pretranslation_Processing_Guide.pdf) | Markdown source-file handling, regular expressions (Regex), structure-sensitive content identification, localization review thinking |
 | **03. Bear Hand Mixer User Manual Localization Case Study** | Coursework-based localization case study | [PDF](03_Bear_Hand_Mixer_Localization/Bear_Hand_Mixer_Localization_Case_Study.pdf) | Chinese-to-English localization, user manual editing, revision rationale, terminology simplification, safety wording awareness |
 
 > The PLA HTML output is published through GitHub Pages. The source HTML files are also kept in the repository for reference.
@@ -66,14 +66,14 @@ The guide focuses on identifying high-risk content such as Markdown syntax, plac
 - identifying structure-sensitive content in Markdown files
 - using Regex for controlled search and risk identification
 - distinguishing between content to preserve, content to clean up, and content requiring human confirmation
-- designing a reviewable and reversible handoff process
+- outlining a reviewable and reversible handoff process
 - writing checklists for pre-delivery review
 
 **File:**
 
 - [View PDF](02_Markdown_Pretranslation_Processing/Markdown_Pretranslation_Processing_Guide.pdf)
 
-This sample connects my localization background with technical documentation work by focusing on source-file safety, content structure, and documentation QA.
+This sample connects my localization background with technical documentation work by focusing on source-file safety, content structure, and documentation review.
 
 ---
 
