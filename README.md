@@ -16,7 +16,7 @@ This repository includes selected samples in technical writing, localization wor
 | **02. Markdown Pre-translation Processing Guide** | Process guide / localization workflow sample | [PDF](02_Markdown_Pretranslation_Processing/Markdown_Pretranslation_Processing_Guide.pdf) | Markdown source-file handling, regular expressions (Regex), structure-sensitive content identification, localization QA thinking |
 | **03. Bear Hand Mixer User Manual Localization Case Study** | Coursework-based localization case study | [PDF](03_Bear_Hand_Mixer_Localization/Bear_Hand_Mixer_Localization_Case_Study.pdf) | Chinese-to-English localization, user manual editing, revision rationale, terminology simplification, safety wording awareness |
 
-> Note: > The PLA HTML output is published through GitHub Pages. The source HTML files are also kept in the repository for reference.
+> The PLA HTML output is published through GitHub Pages. The source HTML files are also kept in the repository for reference.
 
 ---
 
