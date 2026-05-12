@@ -12,11 +12,11 @@ This repository includes selected samples in technical writing, localization wor
 
 | Project | Type | Links | What it demonstrates |
 |---|---|---|---|
-| **01. PLA Edge Lifting Troubleshooting Guide** | Self-directed troubleshooting guide | [PDF](01_PLA_Edge_Lifting_Troubleshooting/PLA_Edge_Lifting_Troubleshooting.pdf) · [HTML output](01_PLA_Edge_Lifting_Troubleshooting/html_output/index.html) · [DITA source](01_PLA_Edge_Lifting_Troubleshooting/PLA_DITA_Source/) | Scope control, symptom-based troubleshooting, task-oriented writing, DITA-based PDF/HTML output |
+| **01. PLA Edge Lifting Troubleshooting Guide** | Self-directed troubleshooting guide | [PDF](01_PLA_Edge_Lifting_Troubleshooting/PLA_Edge_Lifting_Troubleshooting.pdf) · [HTML output](https://whyamistilleatin.github.io/technical-writing-localization-portfolio/01_PLA_Edge_Lifting_Troubleshooting/html_output/index.html) · [DITA source](01_PLA_Edge_Lifting_Troubleshooting/PLA_DITA_Source/) | Scope control, symptom-based troubleshooting, task-oriented writing, DITA-based PDF/HTML output |
 | **02. Markdown Pre-translation Processing Guide** | Process guide / localization workflow sample | [PDF](02_Markdown_Pretranslation_Processing/Markdown_Pretranslation_Processing_Guide.pdf) | Markdown source-file handling, regular expressions (Regex), structure-sensitive content identification, localization QA thinking |
 | **03. Bear Hand Mixer User Manual Localization Case Study** | Coursework-based localization case study | [PDF](03_Bear_Hand_Mixer_Localization/Bear_Hand_Mixer_Localization_Case_Study.pdf) | Chinese-to-English localization, user manual editing, revision rationale, terminology simplification, safety wording awareness |
 
-> Note: The HTML output link above opens the repository file view. After GitHub Pages is enabled, I will update it to the public HTML page link.
+> Note: > The PLA HTML output is published through GitHub Pages. The source HTML files are also kept in the repository for reference.
 
 ---
 
@@ -42,7 +42,8 @@ The guide helps users decide whether the troubleshooting path applies to their s
 **Files:**
 
 - [View PDF](01_PLA_Edge_Lifting_Troubleshooting/PLA_Edge_Lifting_Troubleshooting.pdf)
-- [View HTML output](01_PLA_Edge_Lifting_Troubleshooting/html_output/index.html)
+- [View HTML output](https://whyamistilleatin.github.io/technical-writing-localization-portfolio/01_PLA_Edge_Lifting_Troubleshooting/html_output/index.html)
+- [View HTML source files](01_PLA_Edge_Lifting_Troubleshooting/html_output/)
 - [View DITA source folder](01_PLA_Edge_Lifting_Troubleshooting/PLA_DITA_Source/)
 
 Visual aids in this sample were created with AI assistance and reviewed for instructional clarity.
