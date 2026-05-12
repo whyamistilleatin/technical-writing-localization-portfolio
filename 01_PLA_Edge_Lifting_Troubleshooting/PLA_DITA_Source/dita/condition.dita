@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="condition">
+    <title>Condition</title>
+    <body>
+      <p>A print starts normally, but one or more lower edges lose flat contact with the build plate during printing.</p>
+      <p>Typical signs include the following:</p>
+      <ul>
+        <li>One or more corners curl upward.</li>
+        <li>The bottom edges no longer stay flat against the build plate.</li>
+        <li>The print may continue, but the base becomes distorted.</li>
+      </ul>
+    </body>
+  </topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result">
+    <title>Check the result</title>
+    <body>
+        <ul id="ul_q1x_dwm_2jc">
+            <li>Repeat the same first-layer test after each adjustment.</li>
+            <li>
+                <p>If the first-layer lines show stable contact across the build plate, stop here
+                    and keep the current calibration.</p>
+            </li>
+            <li>If one side still sticks better than the other, recheck bed leveling before changing
+                slicer settings.</li>
+        </ul>
+    </body>
+</topic>

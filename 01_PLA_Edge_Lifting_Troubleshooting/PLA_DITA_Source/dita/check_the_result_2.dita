@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_2">
+    <title>Check the result</title>
+    <body>
+        <p>
+            <ul id="ul_r5z_rvn_2jc">
+                <li>Restart the same print with the brim enabled.</li>
+            </ul>
+        </p>
+        <p>
+            <ul id="ul_zgd_svn_2jc">
+                <li>If the corners and narrow contact areas stay attached, stop here and keep the
+                    brim setting.</li>
+            </ul>
+        </p>
+        <p>
+            <ul id="ul_nbg_svn_2jc">
+                <li>If lifting continues, increase the brim width one step at a time.</li>
+            </ul>
+        </p>
+        <p>
+            <ul id="ul_gbx_rvn_2jc">
+                <li>If a wider brim does not improve the result, check airflow, room conditions, or
+                    part geometry instead.</li>
+            </ul>
+        </p>
+    </body>
+</topic>

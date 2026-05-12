@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action-4">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>Reduce direct airflow around the printer.</li>
+      <li>Avoid sudden airflow or temperature changes during printing.</li>
+          <li>Avoid placing the printer near open windows, fans, air vents, or other strong moving air sources.</li>
+        </ul>
+      </body>
+    </topic>

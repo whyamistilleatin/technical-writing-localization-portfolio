@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-6">
+  <title>Notes</title>
+  <body>
+    <ul>
+      <li>On some flat parts, line-based paths may create longer continuous stress paths across the
+        base.</li>
+      <li>No bottom surface pattern works best for every model.</li>
+    </ul>
+  </body>
+</topic>

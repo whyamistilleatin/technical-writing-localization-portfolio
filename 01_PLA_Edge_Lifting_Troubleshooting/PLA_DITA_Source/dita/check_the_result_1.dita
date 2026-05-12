@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_1">
+    <title>Check the result</title>
+    <body>
+        <ul id="ul_dwn_hwm_2jc">
+            <li>Restart the same print after changing only the build plate temperature.</li>
+            <li>If the lower edges stay attached through the early layers, stop here and keep the
+                tested temperature.</li>
+            <li>If corners still lift, return to the previous temperature before testing another
+                factor.</li>
+        </ul>
+    </body>
+</topic>

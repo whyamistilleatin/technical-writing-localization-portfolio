@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-3">
+  <title>Notes</title>
+  <body>
+    <ul>
+      <li>A brim may leave extra material around the model base that must be removed after
+        printing.</li>
+    </ul>
+    
+    <fig id="fig_brim_comparison">
+      <title>A brim increases contact area around the model base and helps resist edge lifting.</title>
+      <image href="brim_comparison.png" placement="break" align="center" scale="30">
+        <alt>Two views of a model on a build plate, one printed without a brim and one with a brim extending around the base.</alt>
+      </image>
+    </fig>
+  </body>
+</topic>

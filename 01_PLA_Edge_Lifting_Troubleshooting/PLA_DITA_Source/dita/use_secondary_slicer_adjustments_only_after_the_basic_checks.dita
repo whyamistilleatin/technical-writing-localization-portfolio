@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use-secondary-slicer-adjustments-only-after-the-basic-checks">
+  <title>Use secondary slicer adjustments only after the basic checks</title>
+  <body>
+    <p>Use the following slicer-level adjustments only after checking build plate condition,
+      first-layer contact, build plate temperature, edge adhesion, airflow, and part geometry. </p>
+    <p>These adjustments do not replace model-specific design changes when the model shape itself
+      causes repeated lifting.</p>
+  </body>
+</topic>

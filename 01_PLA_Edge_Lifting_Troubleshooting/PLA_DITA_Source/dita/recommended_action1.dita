@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action-1">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>Recheck bed leveling or first-layer calibration.</li>
+          <li>Use a simple first-layer test print if one is available.</li>
+      <li>Adjust the nozzle-to-build-plate distance in small increments. On printers that provide a
+        Z-offset or other micron-based height adjustment, about 0.02 mm can be used as a cautious
+        starting point.</li>
+          <li>After each adjustment, repeat the same first-layer test before starting another full print.</li>
+        </ul>
+      </body>
+    </topic>

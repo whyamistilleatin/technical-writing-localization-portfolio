@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Why PLA prints develop edge lifting and minor warping</title>
+    <topicref href="why_pla_prints_develop_edge_lifting_and_minor_warping.dita">
+        <topicref href="why_the_problem_happens.dita" toc="no"/>
+        <topicref href="why_corners_usually_lift_first.dita" toc="no"/>
+        <topicref href="why_large_flat_parts_warp_more_easily.dita" toc="no"/>
+        <topicref href="why_the_first_layers_matter_most.dita" toc="no"/>
+    </topicref>
+</map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_3">
+    <title>Check the result</title>
+    <body>
+        <ul id="ul_cwq_lwm_2jc">
+            <li>Restart the same print after reducing direct airflow around the printer.</li>
+            <li>If the same corner or side no longer lifts under similar conditions, stop here and
+                keep the more stable airflow setup.</li>
+            <li>If the issue appears only at certain times or locations, review nearby airflow
+                sources again.</li>
+        </ul>
+    </body>
+</topic>

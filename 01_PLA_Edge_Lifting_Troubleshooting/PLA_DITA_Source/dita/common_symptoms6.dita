@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="common-symptoms-6">
+        <title>Common symptoms</title>
+        <body>
+          <ul>
+            <li>Large flat models continue to show edge lifting after all basic checks.</li>
+      <li>Edge lifting appears in a similar location each time when the same slicer profile is
+        used.</li>
+          </ul>
+        </body>
+      </topic>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-2">
+      <title>Notes</title>
+      <body>
+        <ul>
+          <li>A higher build plate temperature is not a universal fix.</li>
+          <li>This factor often interacts with first-layer contact, part size, and room conditions.</li>
+        </ul>
+      </body>
+    </topic>

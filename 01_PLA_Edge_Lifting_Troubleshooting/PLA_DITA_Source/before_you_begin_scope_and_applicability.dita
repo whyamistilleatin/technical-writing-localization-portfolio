@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="before-you-begin-scope-and-applicability">
+  <title>Before You Begin: Scope and Applicability</title>
+  <body>
+    <p>This guide is for beginner-to-intermediate desktop FDM users who can clean the build plate,
+      run a first-layer test, and adjust basic slicer settings such as build plate temperature or
+      brim settings.</p>
+    <p>Use the table below to confirm whether this troubleshooting path matches your situation.</p>
+  </body>
+</topic>

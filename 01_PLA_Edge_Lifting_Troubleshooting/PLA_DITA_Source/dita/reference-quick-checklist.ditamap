@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Quick checklist for edge lifting troubleshooting</title>
+    <topicref href="quick_checklist_for_edge_lifting_troubleshooting.dita">
+        <topicref href="recommended_troubleshooting_order.dita" toc="no"/>
+        <topicref href="symptom-to-check_guide.dita" toc="no"/>
+    </topicref>
+</map>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-troubleshooting-order">
+  <title>Recommended troubleshooting order</title>
+  <body>
+    <table colsep="1" rowsep="1" frame="all">
+      <tgroup cols="4">
+        <colspec colname="col1"/>
+        <colspec colname="col2"/>
+        <colspec colname="col3"/>
+        <colspec colname="col4"/>
+        <thead>
+          <row>
+            <entry>Step</entry>
+            <entry>Check</entry>
+            <entry>Why it matters</entry>
+            <entry>Typical action</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>Build plate condition</entry>
+            <entry>Surface contamination is a common first-layer issue.</entry>
+            <entry>Clean the build plate.</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>First-layer contact</entry>
+            <entry>Poor first-layer contact often causes early lifting.</entry>
+            <entry>Recheck bed leveling or first-layer calibration.</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Build plate temperature</entry>
+            <entry>Weak adhesion may appear after printing starts.</entry>
+            <entry>Confirm the PLA profile and build plate temperature.</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Edge adhesion</entry>
+            <entry>Narrow contact areas lift easily.</entry>
+            <entry>Add a brim if needed.</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Surrounding airflow</entry>
+            <entry>Uneven cooling can make one side lift more easily.</entry>
+            <entry>Reduce drafts and unstable cooling.</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Part geometry</entry>
+            <entry>Some shapes create more shrinkage stress.</entry>
+            <entry>Review print orientation first.</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Secondary slicer settings</entry>
+            <entry>These are not first-line fixes.</entry>
+            <entry>Test bottom surface or infill pattern changes only after the basic
+              checks.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

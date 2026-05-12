@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="when-to-stop-this-path">
+    <title>When to stop this path</title>
+    <body>
+      <p>This troubleshooting path does not apply if any of the following are true:</p>
+      <ul>
+        <li>The printer cannot maintain normal nozzle or build plate temperature.</li>
+        <li>Filament does not extrude normally.</li>
+        <li>The build plate is visibly damaged or unstable.</li>
+        <li>The printer shows clear mechanical looseness, assembly problems, or repeated hardware-related instability.</li>
+      </ul>
+    </body>
+  </topic>

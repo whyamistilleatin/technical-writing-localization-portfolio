@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-7">
+  <title>Notes</title>
+  <body>
+    <ul>
+      <li>Some infill patterns create longer crossing paths or a different material distribution
+        inside the part.</li>
+      <li>Results vary by model.</li>
+    </ul>
+    <fig id="fig_infill_pattern">
+      <title>Internal patterns can change how stress paths are distributed inside a part.</title>
+      <image href="Infill_pattern_comparison.png" placement="break" align="center" scale="30">
+        <alt>A simplified comparison of path layouts on a flat printed part, showing that different
+          bottom and internal path strategies can distribute stress in different ways.</alt>
+      </image>
+    </fig>
+  </body>
+</topic>

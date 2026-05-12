@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="why-large-flat-parts-warp-more-easily">
+    <title>Why large flat parts warp more easily</title>
+    <body>
+      <p>Large flat parts create more total shrinkage stress as PLA cools.</p>
+      <p>Long straight edges can also accumulate stress in one direction. This can make the lower perimeter more likely to pull away from the build plate.</p>
+      <p>For that reason, parts that look simple because they have a large flat base may actually be harder to keep fully attached during printing.</p>
+    </body>
+  </topic>

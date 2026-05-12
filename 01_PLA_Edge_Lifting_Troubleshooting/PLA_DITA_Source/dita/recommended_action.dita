@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>Clean the build plate according to the manufacturer's care guidance.</li>
+          <li>Do not touch the print area after cleaning.</li>
+      <li>
+        <p>Confirm that the selected build surface profile, or the printer or slicer setting for the
+          installed plate type, matches the installed build surface.</p>
+      </li>
+        </ul>
+      </body>
+    </topic>

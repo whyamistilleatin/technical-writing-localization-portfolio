@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>PLA Edge Lifting Troubleshooting Guide</title>
+    
+    <topicref href="before_you_begin_scope_and_applicability.dita"
+        navtitle="Before You Begin: Scope and Applicability"
+        locktitle="yes"
+        chunk="to-content">
+        <topicref href="scope_decision_table.dita" toc="no"/>
+    </topicref>
+    
+    <topicref href="dita/quick_checklist_for_edge_lifting_troubleshooting.dita"
+        navtitle="Quick checklist for edge lifting troubleshooting"
+        locktitle="yes"
+        chunk="to-content">
+        <topicref href="dita/recommended_troubleshooting_order.dita" toc="no"/>
+        <topicref href="dita/symptom-to-check_guide.dita" toc="no"/>
+    </topicref>
+    
+    <topicref href="dita/fix_edge_lifting_and_minor_warping_in_pla_prints.dita"
+        navtitle="Fix edge lifting and minor warping in PLA prints"
+        locktitle="yes">
+        
+        <topicref href="dita/build_plate_surface_is_dirty_or_poorly_prepared.dita"
+            navtitle="Build plate surface"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause.dita" toc="no"/>
+            <topicref href="dita/common_symptoms.dita" toc="no"/>
+            <topicref href="dita/recommended_action.dita" toc="no"/>
+            <topicref href="dita/check_the_result_0.dita" toc="no"/>
+            <topicref href="dita/notes.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/first-layer_height_or_bed_leveling_is_incorrect.dita"
+            navtitle="First-layer height"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause1.dita" toc="no"/>
+            <topicref href="dita/common_symptoms1.dita" toc="no"/>
+            <topicref href="dita/recommended_action1.dita" toc="no"/>
+            <topicref href="dita/check_the_result.dita" toc="no"/>
+            <topicref href="dita/notes1.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/build_plate_temperature_is_too_low_or_unstable.dita"
+            navtitle="Build plate temperature"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause2.dita" toc="no"/>
+            <topicref href="dita/common_symptoms2.dita" toc="no"/>
+            <topicref href="dita/recommended_action2.dita" toc="no"/>
+            <topicref href="dita/check_the_result_1.dita" toc="no"/>
+            <topicref href="dita/notes2.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/edge_adhesion_is_insufficient.dita"
+            navtitle="Edge adhesion"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause3.dita" toc="no"/>
+            <topicref href="dita/common_symptoms3.dita" toc="no"/>
+            <topicref href="dita/recommended_action3.dita" toc="no"/>
+            <topicref href="dita/check_the_result_2.dita" toc="no"/>
+            <topicref href="dita/notes3.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/airflow_or_room_conditions_cause_uneven_cooling.dita"
+            navtitle="Airflow and room conditions"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause4.dita" toc="no"/>
+            <topicref href="dita/common_symptoms4.dita" toc="no"/>
+            <topicref href="dita/recommended_action4.dita" toc="no"/>
+            <topicref href="dita/check_the_result_3.dita" toc="no"/>
+            <topicref href="dita/notes4.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/part_geometry_or_orientation_increases_shrinkage_stress.dita"
+            navtitle="Part geometry and orientation"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/cause5.dita" toc="no"/>
+            <topicref href="dita/common_symptoms5.dita" toc="no"/>
+            <topicref href="dita/recommended_action5.dita" toc="no"/>
+            <topicref href="dita/check_the_result_4.dita" toc="no"/>
+            <topicref href="dita/notes5.dita" toc="no"/>
+        </topicref>
+        
+        <topicref href="dita/use_secondary_slicer_adjustments_only_after_the_basic_checks.dita"
+            navtitle="Secondary slicer adjustments"
+            locktitle="yes"
+            chunk="to-content">
+            
+            <topicref href="dita/bottom_surface_pattern_may_affect_stress_distribution.dita" toc="no">
+                <topicref href="dita/cause6.dita" toc="no"/>
+                <topicref href="dita/common_symptoms6.dita" toc="no"/>
+                <topicref href="dita/recommended_action6.dita" toc="no"/>
+                <topicref href="dita/check_the_result_5.dita" toc="no"/>
+                <topicref href="dita/notes6.dita" toc="no"/>
+            </topicref>
+            
+            <topicref href="dita/infill_pattern_may_affect_internal_stress_behavior.dita" toc="no">
+                <topicref href="dita/cause7.dita" toc="no"/>
+                <topicref href="dita/common_symptoms7.dita" toc="no"/>
+                <topicref href="dita/recommended_action7.dita" toc="no"/>
+                <topicref href="dita/check_the_result_6.dita" toc="no"/>
+                <topicref href="dita/notes7.dita" toc="no"/>
+            </topicref>
+        </topicref>
+        
+        <topicref href="dita/if_the_problem_persists.dita"
+            navtitle="If the problem persists"
+            locktitle="yes"
+            chunk="to-content">
+            <topicref href="dita/escalation_table.dita" toc="no"/>
+        </topicref>
+    </topicref>
+    
+    <topicref href="dita/why_pla_prints_develop_edge_lifting_and_minor_warping.dita"
+        navtitle="Why PLA prints develop edge lifting and minor warping"
+        locktitle="yes"
+        chunk="to-content">
+        <topicref href="dita/why_the_problem_happens.dita" toc="no"/>
+        <topicref href="dita/why_corners_usually_lift_first.dita" toc="no"/>
+        <topicref href="dita/why_large_flat_parts_warp_more_easily.dita" toc="no"/>
+        <topicref href="dita/why_the_first_layers_matter_most.dita" toc="no"/>
+    </topicref>
+    
+    <topicref href="dita/reference-key-terms.dita"
+        navtitle="Key terms for PLA edge lifting troubleshooting"
+        locktitle="yes"/>
+</map>

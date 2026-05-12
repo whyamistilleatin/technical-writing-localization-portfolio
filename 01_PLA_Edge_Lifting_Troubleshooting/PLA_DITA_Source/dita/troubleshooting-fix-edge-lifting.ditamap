@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Fix edge lifting and minor warping in PLA prints</title>
+    <topicref href="fix_edge_lifting_and_minor_warping_in_pla_prints.dita">
+        <topicref href="build_plate_surface_is_dirty_or_poorly_prepared.dita">
+            <topicref href="cause.dita" toc="no"/>
+            <topicref href="common_symptoms.dita" toc="no"/>
+            <topicref href="recommended_action.dita" toc="no"/>
+            <topicref href="check_the_result_0.dita" toc="no"/>
+            <topicref href="notes.dita" toc="no"/>
+        </topicref>
+        <topicref href="first-layer_height_or_bed_leveling_is_incorrect.dita">
+            <topicref href="cause1.dita" toc="no"/>
+            <topicref href="common_symptoms1.dita" toc="no"/>
+            <topicref href="recommended_action1.dita" toc="no"/>
+            <topicref href="check_the_result.dita" toc="no"/>
+            <topicref href="notes1.dita" toc="no"/>
+        </topicref>
+        <topicref href="build_plate_temperature_is_too_low_or_unstable.dita">
+            <topicref href="cause2.dita" toc="no"/>
+            <topicref href="common_symptoms2.dita" toc="no"/>
+            <topicref href="recommended_action2.dita" toc="no"/>
+            <topicref href="check_the_result_1.dita" toc="no"/>
+            <topicref href="notes2.dita" toc="no"/>
+        </topicref>
+        <topicref href="edge_adhesion_is_insufficient.dita">
+            <topicref href="cause3.dita" toc="no"/>
+            <topicref href="common_symptoms3.dita" toc="no"/>
+            <topicref href="recommended_action3.dita" toc="no"/>
+            <topicref href="check_the_result_2.dita" toc="no"/>
+            <topicref href="notes3.dita" toc="no"/>
+        </topicref>
+        <topicref href="airflow_or_room_conditions_cause_uneven_cooling.dita">
+            <topicref href="cause4.dita" toc="no"/>
+            <topicref href="common_symptoms4.dita" toc="no"/>
+            <topicref href="recommended_action4.dita" toc="no"/>
+            <topicref href="check_the_result_3.dita" toc="no"/>
+            <topicref href="notes4.dita" toc="no"/>
+        </topicref>
+        <topicref href="part_geometry_or_orientation_increases_shrinkage_stress.dita">
+            <topicref href="cause5.dita" toc="no"/>
+            <topicref href="common_symptoms5.dita" toc="no"/>
+            <topicref href="recommended_action5.dita" toc="no"/>
+            <topicref href="check_the_result_4.dita" toc="no"/>
+            <topicref href="notes5.dita" toc="no"/>
+        </topicref>
+        <topicref href="use_secondary_slicer_adjustments_only_after_the_basic_checks.dita">
+            <topicref href="bottom_surface_pattern_may_affect_stress_distribution.dita" toc="no">
+                <topicref href="cause6.dita" toc="no"/>
+                <topicref href="common_symptoms6.dita" toc="no"/>
+                <topicref href="recommended_action6.dita" toc="no"/>
+                <topicref href="check_the_result_5.dita" toc="no"/>
+                <topicref href="notes6.dita" toc="no"/>
+            </topicref>
+            <topicref href="infill_pattern_may_affect_internal_stress_behavior.dita" toc="no">
+                <topicref href="cause7.dita" toc="no"/>
+                <topicref href="common_symptoms7.dita" toc="no"/>
+                <topicref href="recommended_action7.dita" toc="no"/>
+                <topicref href="check_the_result_6.dita" toc="no"/>
+                <topicref href="notes7.dita" toc="no"/>
+            </topicref>
+        </topicref>
+        <topicref href="if_the_problem_persists.dita">
+            <topicref href="escalation_table.dita"/>
+        </topicref>
+    </topicref>
+</map>

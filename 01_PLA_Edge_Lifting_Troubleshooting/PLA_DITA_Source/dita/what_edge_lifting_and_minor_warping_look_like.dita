@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what-edge-lifting-and-minor-warping-look-like">
+    <title>What edge lifting and minor warping look like</title>
+    <body>
+      <p>Edge lifting or minor warping occurs when the lower edges of a PLA part lose flat contact with the build plate during printing.</p>
+      <p>Typical signs include the following:</p>
+      <ul>
+        <li>One or more corners curl upward.</li>
+        <li>The bottom edges no longer stay flat against the build plate.</li>
+        <li>The print may continue, but the base becomes distorted.</li>
+      </ul>
+      <lq>
+        <p>
+          <?linebreak?>Description: A PLA print corner lifting slightly from the build plate.<?linebreak?>Purpose: Show what early edge lifting looks like.<?linebreak?>Alt text: A close-up of a PLA print corner lifting slightly away from the build plate while the rest of the part remains attached.</p>
+      </lq>
+    </body>
+  </topic>

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?><bookmap xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="bookmap:1;3:10" xtrf="file:/Users/joy/vscode/3d%20printer/dita/main_troubleshooting_guide_ditamap.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><bookmeta xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- map/topicmeta bookmap/bookmeta ">
+        <author class="- topic/author ">Xinyue Chen</author>
+        
+        <critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates>
+        
+        <metadata class="- topic/metadata ">
+            <data class="- topic/data " name="portfolio-label" value="Portfolio sample by Xinyue Chen"/>
+            <data class="- topic/data " name="document-type" value="Troubleshooting guide"/>
+            <data class="- topic/data " name="audience" value="Entry-level desktop FDM printer users"/>
+            <data class="- topic/data " name="material" value="PLA filament"/>
+            <data class="- topic/data " name="format" value="DITA-based documentation sample"/>
+            <data class="- topic/data " name="tool" value="Oxygen XML Author, VS Code"/>
+        </metadata>
+        
+        <prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo>
+    </bookmeta><oxy:front-page-title class="- front-page/front-page-title "><booktitle xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Troubleshooting Edge Lifting and Minor Warping in Entry-Level PLA FDM Printing</mainbooktitle>  </booktitle></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <booktitle class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Troubleshooting Edge Lifting and Minor Warping in Entry-Level PLA FDM Printing</mainbooktitle>  </booktitle>
+    
+    
+    
+    <frontmatter class="- map/topicref bookmap/frontmatter "><booklists class="- map/topicref bookmap/booklists "/></frontmatter>
+    
+    <topicref is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_1" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="before-you-begin-scope-and-applicability"><resourceid appid="before-you-begin-scope-and-applicability" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Before You Begin: Scope and Applicability</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_3" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="quick-checklist-for-edge-lifting-troubleshooting"><resourceid appid="quick-checklist-for-edge-lifting-troubleshooting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Quick checklist for edge lifting troubleshooting</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_13" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="fix-edge-lifting-and-minor-warping-in-pla-prints"><resourceid appid="fix-edge-lifting-and-minor-warping-in-pla-prints" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Fix edge lifting and minor warping in PLA prints</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta><topicref class="- map/topicref " href="#unique_6" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="build-plate-surface-is-dirty-or-poorly-prepared"><resourceid appid="build-plate-surface-is-dirty-or-poorly-prepared" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Build plate surface is dirty or poorly prepared</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_8" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="first-layer-height-or-bed-leveling-is-incorrect"><resourceid appid="first-layer-height-or-bed-leveling-is-incorrect" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">First-layer height or bed leveling is incorrect</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_9" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="build-plate-temperature-is-too-low-or-unstable"><resourceid appid="build-plate-temperature-is-too-low-or-unstable" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Build plate temperature is too low or unstable</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_10" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="edge-adhesion-is-insufficient"><resourceid appid="edge-adhesion-is-insufficient" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Edge adhesion is insufficient</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_7" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="airflow-or-room-conditions-cause-uneven-cooling"><resourceid appid="airflow-or-room-conditions-cause-uneven-cooling" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Airflow or room conditions cause uneven cooling</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_11" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="part-geometry-or-orientation-increases-shrinkage-stress"><resourceid appid="part-geometry-or-orientation-increases-shrinkage-stress" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Part geometry or orientation increases shrinkage stress</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="use-secondary-slicer-adjustments-only-after-the-basic-checks"><resourceid appid="use-secondary-slicer-adjustments-only-after-the-basic-checks" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Use secondary slicer adjustments only after the basic checks</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref><topicref class="- map/topicref " href="#unique_56" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="if-the-problem-persists"><resourceid appid="if-the-problem-persists" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_56" class="- topic/navtitle ">If the problem persists</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta><topicref class="- map/topicref " href="#unique_57" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="escalation_table"><resourceid appid="escalation_table" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_57" class="- topic/navtitle ">Escalation table</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref></topicref></topicref>
+    <topicref is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_58" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="why-pla-prints-develop-edge-lifting-and-minor-warping"><resourceid appid="why-pla-prints-develop-edge-lifting-and-minor-warping" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_58" class="- topic/navtitle ">Why PLA prints develop edge lifting and minor warping</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></topicref>
+    <chapter is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_63" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="key-terms-for-pla-edge-lifting-troubleshooting"><resourceid appid="key-terms-for-pla-edge-lifting-troubleshooting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_63" class="- topic/navtitle ">Key terms for PLA edge lifting troubleshooting</navtitle><?ditaot gentext?><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></topicmeta></chapter>
+</opentopic:map><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_1" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="before-you-begin-scope-and-applicability" oid="before-you-begin-scope-and-applicability" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Before You Begin: Scope and Applicability</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">This guide is for beginner-to-intermediate desktop FDM users who can clean the build plate,
+      run a first-layer test, and adjust basic slicer settings such as build plate temperature or
+      brim settings.</p>
+    <p class="- topic/p ">Use the table below to confirm whether this troubleshooting path matches your situation.</p>
+  </body>
+<topic class="- topic/topic " id="unique_2" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="scope-decision-table" oid="scope-decision-table" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Scope decision table</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+      <tgroup class="- topic/tgroup " cols="3">
+        <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;9:34" xtrf="file:/Users/joy/vscode/3d%20printer/scope_decision_table.dita"/>
+        <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;10:34" xtrf="file:/Users/joy/vscode/3d%20printer/scope_decision_table.dita"/>
+        <colspec class="- topic/colspec " colname="col3" colnum="3" xtrc="colspec:3;11:34" xtrf="file:/Users/joy/vscode/3d%20printer/scope_decision_table.dita"/>
+        <thead class="- topic/thead ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Condition</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Use this guide?</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1">What to do next</entry></row>
+        </thead>
+        <tbody class="- topic/tbody ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">Entry-level desktop FDM printer</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Yes</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2">Continue</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">Flat heated build plate</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Yes</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3">Continue</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">PLA filament</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Yes</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4">Continue</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">Edge or corner lifting during printing</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">Yes</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5">Continue</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">Full detachment in the first layers</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">Partly</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6">Start with first-layer checks</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">One model fails repeatedly</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">Partly</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7">Check geometry after basic checks</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">No extrusion or failed startup</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8">Check printer startup first</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9">Temperature error, failed heating, or unstable hardware temperature</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9">Check printer-specific hardware guidance</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10">Damaged or loose build plate</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="10">Fix the build plate first</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11">Non-PLA material</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="11">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="11">Use material-specific guidance</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="12">Resin printer</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="12">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="12">Use resin-printing guidance</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="13">Manufacturer guidance conflicts with this guide</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="13">No</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="13">Follow manufacturer guidance</entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p class="- topic/p ">If more than one condition applies, address any hardware, temperature-control, or build plate
+      issue before changing slicer settings. Follow manufacturer documentation when it provides
+      product-specific instructions.</p>
+  </body>
+</topic></topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_3" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="quick-checklist-for-edge-lifting-troubleshooting" oid="quick-checklist-for-edge-lifting-troubleshooting" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Quick checklist for edge lifting troubleshooting</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">Start with this checklist before changing advanced slicer settings.</p>
+  </body>
+<topic class="- topic/topic " id="unique_4" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-troubleshooting-order" oid="recommended-troubleshooting-order" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended troubleshooting order</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+      <tgroup class="- topic/tgroup " cols="4">
+        <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;9:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/recommended_troubleshooting_order.dita"/>
+        <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;10:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/recommended_troubleshooting_order.dita"/>
+        <colspec class="- topic/colspec " colname="col3" colnum="3" xtrc="colspec:3;11:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/recommended_troubleshooting_order.dita"/>
+        <colspec class="- topic/colspec " colname="col4" colnum="4" xtrc="colspec:4;12:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/recommended_troubleshooting_order.dita"/>
+        <thead class="- topic/thead ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Step</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Check</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1">Why it matters</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="1">Typical action</entry></row>
+        </thead>
+        <tbody class="- topic/tbody ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">1</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Build plate condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2">Surface contamination is a common first-layer issue.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="2">Clean the build plate.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">2</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">First-layer contact</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3">Poor first-layer contact often causes early lifting.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="3">Recheck bed leveling or first-layer calibration.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">3</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Build plate temperature</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4">Weak adhesion may appear after printing starts.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="4">Confirm the PLA profile and build plate temperature.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">4</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">Edge adhesion</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5">Narrow contact areas lift easily.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="5">Add a brim if needed.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">5</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">Surrounding airflow</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6">Uneven cooling can make one side lift more easily.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="6">Reduce drafts and unstable cooling.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">6</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">Part geometry</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7">Some shapes create more shrinkage stress.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="7">Review print orientation first.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">7</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">Secondary slicer settings</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8">These are not first-line fixes.</entry><entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="8">Test bottom surface or infill pattern changes only after the basic
+              checks.</entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic><topic class="- topic/topic " id="unique_5" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="symptom-to-check-guide" oid="symptom-to-check-guide" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Symptom-to-check guide</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+      <tgroup class="- topic/tgroup " cols="3">
+        <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;9:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/symptom-to-check_guide.dita"/>
+        <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;10:34" xtrf="file:/Users/joy/vscode/3d%20printer/dita/symptom-to-check_guide.dita"/>
+        <colspec class="- topic/colspec " colname="col3" colnum="3" xtrc="colspec:3;11:37" xtrf="file:/Users/joy/vscode/3d%20printer/dita/symptom-to-check_guide.dita"/>
+        <thead class="- topic/thead ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">If you see this</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Check this first</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1">Go to </entry></row>
+        </thead>
+        <tbody class="- topic/tbody ">
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">Adhesion is inconsistent across the build plate</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Build plate condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2"><xref class="- topic/xref " href="#unique_6" type="topic"><?ditaot usertext?>Build plate surface</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">Small prints lift even when settings appear normal </entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Build plate condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3"><xref class="- topic/xref " href="#unique_6" type="topic"><?ditaot usertext?>Build plate surface</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">One corner lifts more than the others</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Airflow and uneven cooling</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4"><xref class="- topic/xref " href="#unique_7" type="topic"><?ditaot usertext?>Airflow and room conditions</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">One side of the model sticks better than the other</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">First-layer calibration and bed leveling</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5"><xref class="- topic/xref " href="#unique_8" type="topic"><?ditaot usertext?>First-layer height</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">Large flat models fail after a normal start</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">Build plate temperature, edge adhesion, and part geometry</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6"><xref class="- topic/xref " href="#unique_9" type="topic"><?ditaot usertext?>Build plate
+                temperature</xref>, <xref class="- topic/xref " href="#unique_10" type="topic"><?ditaot usertext?>Edge
+                adhesion</xref>, then <xref class="- topic/xref " href="#unique_11" type="topic"><?ditaot usertext?>Part geometry</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">Narrow-base parts detach more easily</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">Edge adhesion</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7"><xref class="- topic/xref " href="#unique_10" type="topic"><?ditaot usertext?>Edge adhesion</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">The same model sometimes succeeds and sometimes fails</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">Room conditions and airflow</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8"><xref class="- topic/xref " href="#unique_7" type="topic"><?ditaot usertext?>Airflow and room conditions</xref></entry></row>
+          <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9">Large flat models still fail after all basic checks</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9">Secondary slicer settings such as bottom surface pattern or infill
+              pattern</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9"><xref class="- topic/xref " href="#unique_12" type="topic"><?ditaot usertext?>Secondary slicer adjustments</xref></entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p class="- topic/p ">If your situation matches more than one row, start from the earliest step in the recommended
+      troubleshooting order.</p>
+  </body>
+</topic></topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_13" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="fix-edge-lifting-and-minor-warping-in-pla-prints" oid="fix-edge-lifting-and-minor-warping-in-pla-prints" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Fix edge lifting and minor warping in PLA prints</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">If a PLA print starts normally but the lower edges or corners lift from the build plate
+      during printing, follow these steps to diagnose and resolve the issue.</p>
+    <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Note:</b> Change only one setting or environmental factor at a time. After each change,
+      test under the same conditions before changing another factor.</p>
+    <note class="- topic/note " type="caution">
+      <p class="- topic/p ">The nozzle and heated build plate can remain hot before, during, and after printing. Let
+        the printer cool down, or follow the manufacturer's safety guidance before cleaning the
+        build plate or making manual adjustments.</p>
+    </note>
+  </body>
+<topic class="- topic/topic " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="build-plate-surface-is-dirty-or-poorly-prepared" oid="build-plate-surface-is-dirty-or-poorly-prepared" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Build plate surface is dirty or poorly prepared</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_14" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause" oid="cause" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <p class="- topic/p ">Dust, oil, fingerprints, or leftover residue on the build plate can reduce first-layer adhesion.</p>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_15" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms" oid="common-symptoms" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Small prints lift even when settings appear normal.</li><li class="- topic/li ">Adhesion is inconsistent across the build plate.</li><li class="- topic/li ">A print starts normally but loses contact later.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_16" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action" oid="recommended-action" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Clean the build plate according to the manufacturer's care guidance.</li><li class="- topic/li ">Do not touch the print area after cleaning.</li><li class="- topic/li ">
+        <p class="- topic/p ">Confirm that the selected build surface profile, or the printer or slicer setting for the
+          installed plate type, matches the installed build surface.</p>
+      </li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_17" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_0" oid="check_the_result_0" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_17_Connect_42_ul_ocs_jvn_2jc" nd:nd-id="ul_ocs_jvn_2jc"><li class="- topic/li ">Restart the same print or run the same first-layer test under the same
+                    conditions.</li></ul>
+        </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_17_Connect_42_ul_rvy_jvn_2jc" nd:nd-id="ul_rvy_jvn_2jc"><li class="- topic/li ">If the first layer stays attached across the print area, stop here and keep the
+                    build plate preparation method.</li></ul>
+        </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_17_Connect_42_ul_trc_kvn_2jc" nd:nd-id="ul_trc_kvn_2jc"><li class="- topic/li ">If adhesion is still inconsistent, continue to first-layer height or bed
+                    leveling checks.</li></ul>
+        </p>
+    </body>
+</topic><topic class="- topic/topic " id="unique_18" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes" oid="notes" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Cleaning methods vary by build surface.</li></ul>
+      </body>
+    </topic></topic><topic class="- topic/topic " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="first-layer-height-or-bed-leveling-is-incorrect" oid="first-layer-height-or-bed-leveling-is-incorrect" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">First-layer height or bed leveling is incorrect</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_19" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-1" oid="cause-1" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <p class="- topic/p ">If the nozzle is too close to the build plate or too far from it, the first layer may not
+      form stable contact.</p>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_20" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-1" oid="common-symptoms-1" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Extruded lines look too round and loose.</li><li class="- topic/li ">Extruded lines look too thin and overly squashed.</li><li class="- topic/li ">One side of the model sticks better than the other.</li><li class="- topic/li ">Edge lifting starts from one area of the build plate.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_21" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-1" oid="recommended-action-1" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Recheck bed leveling or first-layer calibration.</li><li class="- topic/li ">Use a simple first-layer test print if one is available.</li><li class="- topic/li ">Adjust the nozzle-to-build-plate distance in small increments. On printers that provide a
+        Z-offset or other micron-based height adjustment, about 0.02 mm can be used as a cautious
+        starting point.</li><li class="- topic/li ">After each adjustment, repeat the same first-layer test before starting another full print.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_22" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result" oid="check_the_result" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_22_Connect_42_ul_q1x_dwm_2jc" nd:nd-id="ul_q1x_dwm_2jc"><li class="- topic/li ">Repeat the same first-layer test after each adjustment.</li><li class="- topic/li ">
+                <p class="- topic/p ">If the first-layer lines show stable contact across the build plate, stop here
+                    and keep the current calibration.</p>
+            </li><li class="- topic/li ">If one side still sticks better than the other, recheck bed leveling before changing
+                slicer settings.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_23" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-1" oid="notes-1" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <ul class="- topic/ul "><li class="- topic/li ">A first-layer calibration print or first-layer test print is usually a more reliable way to confirm contact.</li></ul>
+    
+    <fig class="- topic/fig " id="unique_23_Connect_42_fig_first_layer_comparison" nd:nd-id="fig_first_layer_comparison"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">First-layer line shape changes when the nozzle is too high, correctly set, or too low.</ph></title><image align="center" class="- topic/image " href="file:/Users/joy/vscode/3d%20printer/dita/first_layer_comparison.png" placement="break" width="350">
+        <alt class="- topic/alt ">Three side-by-side examples of first-layer extrusion showing a nozzle position that is too high, correct, and too low.</alt>
+      </image></fig>
+  </body>
+</topic></topic><topic class="- topic/topic " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="build-plate-temperature-is-too-low-or-unstable" oid="build-plate-temperature-is-too-low-or-unstable" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Build plate temperature is too low or unstable</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_24" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-2" oid="cause-2" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <p class="- topic/p ">If the build plate is too cool, the first layer may not bond strongly enough to resist
+      shrinkage stress at the edges. If the build plate temperature is unstable, adhesion may also
+      become less consistent during printing.</p>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_25" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-2" oid="common-symptoms-2" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">The print starts normally but corners lift later.</li><li class="- topic/li ">Larger flat models fail more easily than smaller ones.</li><li class="- topic/li ">Prints fail more often in cooler conditions.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_26" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-2" oid="recommended-action-2" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">For PLA on a heated bed, 50–60°C is a common reference range. If  the manufacturer
+        recommends a different value, follow that value.</li><li class="- topic/li ">
+        <p class="- topic/p ">If corners lift after the print starts and the current value is near the lower end of the
+          recommended range, test a slightly higher build plate temperature under the same
+          conditions.</p>
+      </li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_27" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_1" oid="check_the_result_1" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_27_Connect_42_ul_dwn_hwm_2jc" nd:nd-id="ul_dwn_hwm_2jc"><li class="- topic/li ">Restart the same print after changing only the build plate temperature.</li><li class="- topic/li ">If the lower edges stay attached through the early layers, stop here and keep the
+                tested temperature.</li><li class="- topic/li ">If corners still lift, return to the previous temperature before testing another
+                factor.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_28" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-2" oid="notes-2" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">A higher build plate temperature is not a universal fix.</li><li class="- topic/li ">This factor often interacts with first-layer contact, part size, and room conditions.</li></ul>
+      </body>
+    </topic></topic><topic class="- topic/topic " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="edge-adhesion-is-insufficient" oid="edge-adhesion-is-insufficient" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Edge adhesion is insufficient</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_29" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-3" oid="cause-3" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <p class="- topic/p ">The base of the model may not have enough contact area to resist upward pulling
+      force.</p>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_30" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-3" oid="common-symptoms-3" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Corners lift first even when the center still holds.</li><li class="- topic/li ">Narrow-base parts detach more easily.</li><li class="- topic/li ">Tall parts with a small footprint become unstable.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_31" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-3" oid="recommended-action-3" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Add a brim to increase contact area around the model.</li><li class="- topic/li ">Start with the slicer’s default brim setting or a narrow brim, and increase the width one step at a time only if edge lifting continues.</li><li class="- topic/li ">Use a brim before moving to more advanced slicer changes.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_32" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_2" oid="check_the_result_2" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_32_Connect_42_ul_r5z_rvn_2jc" nd:nd-id="ul_r5z_rvn_2jc"><li class="- topic/li ">Restart the same print with the brim enabled.</li></ul>
+        </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_32_Connect_42_ul_zgd_svn_2jc" nd:nd-id="ul_zgd_svn_2jc"><li class="- topic/li ">If the corners and narrow contact areas stay attached, stop here and keep the
+                    brim setting.</li></ul>
+        </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_32_Connect_42_ul_nbg_svn_2jc" nd:nd-id="ul_nbg_svn_2jc"><li class="- topic/li ">If lifting continues, increase the brim width one step at a time.</li></ul>
+        </p>
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_32_Connect_42_ul_gbx_rvn_2jc" nd:nd-id="ul_gbx_rvn_2jc"><li class="- topic/li ">If a wider brim does not improve the result, check airflow, room conditions, or
+                    part geometry instead.</li></ul>
+        </p>
+    </body>
+</topic><topic class="- topic/topic " id="unique_33" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-3" oid="notes-3" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <ul class="- topic/ul "><li class="- topic/li ">A brim may leave extra material around the model base that must be removed after
+        printing.</li></ul>
+    
+    <fig class="- topic/fig " id="unique_33_Connect_42_fig_brim_comparison" nd:nd-id="fig_brim_comparison"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">A brim increases contact area around the model base and helps resist edge lifting.</ph></title><image align="center" class="- topic/image " dita-ot:image-width="1448" dita-ot:image-height="1086" href="file:/Users/joy/vscode/3d%20printer/dita/brim_comparison.png" placement="break" scale="30">
+        <alt class="- topic/alt ">Two views of a model on a build plate, one printed without a brim and one with a brim extending around the base.</alt>
+      </image></fig>
+  </body>
+</topic></topic><topic class="- topic/topic " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="airflow-or-room-conditions-cause-uneven-cooling" oid="airflow-or-room-conditions-cause-uneven-cooling" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Airflow or room conditions cause uneven cooling</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_34" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-4" oid="cause-4" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <p class="- topic/p ">Drafts or unstable room temperature can cool one side of the print faster than the other. Uneven cooling can increase shrinkage stress along one edge or corner.</p>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_35" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-4" oid="common-symptoms-4" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">One corner lifts more than the others.</li><li class="- topic/li ">The same model sometimes succeeds and sometimes fails.</li><li class="- topic/li ">Problems occur more often near windows, fans, or air vents.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_36" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-4" oid="recommended-action-4" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Reduce direct airflow around the printer.</li><li class="- topic/li ">Avoid sudden airflow or temperature changes during printing.</li><li class="- topic/li ">Avoid placing the printer near open windows, fans, air vents, or other strong moving air sources.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_37" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_3" oid="check_the_result_3" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_37_Connect_42_ul_cwq_lwm_2jc" nd:nd-id="ul_cwq_lwm_2jc"><li class="- topic/li ">Restart the same print after reducing direct airflow around the printer.</li><li class="- topic/li ">If the same corner or side no longer lifts under similar conditions, stop here and
+                keep the more stable airflow setup.</li><li class="- topic/li ">If the issue appears only at certain times or locations, review nearby airflow
+                sources again.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_38" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-4" oid="notes-4" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">For PLA printing, a full enclosure is not required in many normal cases.</li><li class="- topic/li ">Small changes in airflow can still affect build plate adhesion, especially on larger flat parts.</li><li class="- topic/li ">More stable room conditions may help reduce repeated edge lifting.</li></ul>
+      </body>
+    </topic></topic><topic class="- topic/topic " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="part-geometry-or-orientation-increases-shrinkage-stress" oid="part-geometry-or-orientation-increases-shrinkage-stress" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Part geometry or orientation increases shrinkage stress</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body "/>
+    
+    
+    
+    
+  <topic class="- topic/topic " id="unique_39" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-5" oid="cause-5" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+    <p class="- topic/p ">Large flat bases, long straight edges, and sharp corners can concentrate shrinkage stress
+      during cooling.</p>
+  </body>
+    </topic><topic class="- topic/topic " id="unique_40" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-5" oid="common-symptoms-5" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Long rectangular parts lift at both ends.</li><li class="- topic/li ">Sharp corners lift more easily than rounded ones.</li><li class="- topic/li ">Lifting begins along long exposed edges on otherwise well-adhered parts.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_41" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-5" oid="recommended-action-5" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Reconsider the print orientation if possible.</li><li class="- topic/li ">Avoid placing long straight edges directly along the build plate when another orientation
+        is possible.</li><li class="- topic/li ">Reduce long exposed edge length when the model allows it.</li></ul>
+      </body>
+    </topic><topic class="- topic/topic " id="unique_42" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_4" oid="check_the_result_4" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_42_Connect_42_ul_lpn_4wm_2jc" nd:nd-id="ul_lpn_4wm_2jc"><li class="- topic/li ">Test the same model in the revised orientation when possible.</li><li class="- topic/li ">If edge lifting is reduced under the same printing conditions, stop here and use the
+                revised orientation for this model.</li><li class="- topic/li ">If orientation changes do not reduce lifting, return to the basic adhesion checks or
+                consider model-specific design changes.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_43" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-5" oid="notes-5" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body ">
+        <ul class="- topic/ul "><li class="- topic/li ">Some shapes create more stress even when first-layer calibration and build plate adhesion are acceptable.</li></ul>
+      </body>
+    </topic></topic><topic class="- topic/topic " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="use-secondary-slicer-adjustments-only-after-the-basic-checks" oid="use-secondary-slicer-adjustments-only-after-the-basic-checks" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Use secondary slicer adjustments only after the basic checks</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">Use the following slicer-level adjustments only after checking build plate condition,
+      first-layer contact, build plate temperature, edge adhesion, airflow, and part geometry. </p>
+    <p class="- topic/p ">These adjustments do not replace model-specific design changes when the model shape itself
+      causes repeated lifting.</p>
+  </body>
+<topic class="- topic/topic " id="unique_44" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="bottom-surface-pattern-may-affect-stress-distribution" oid="bottom-surface-pattern-may-affect-stress-distribution" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Bottom surface pattern may affect stress distribution</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body "/>
+      
+      
+      
+      
+    <topic class="- topic/topic " id="unique_45" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-6" oid="cause-6" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">On some large flat models, the bottom surface pattern may influence how cooling stress
+      becomes visible across the base.</p>
+  </body>
+</topic><topic class="- topic/topic " id="unique_46" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-6" oid="common-symptoms-6" specializations="@props/deliveryTarget">
+        <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+        <body class="- topic/body ">
+          <ul class="- topic/ul "><li class="- topic/li ">Large flat models continue to show edge lifting after all basic checks.</li><li class="- topic/li ">Edge lifting appears in a similar location each time when the same slicer profile is
+        used.</li></ul>
+        </body>
+      </topic><topic class="- topic/topic " id="unique_47" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-6" oid="recommended-action-6" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">
+      <ul class="- topic/ul " id="unique_47_Connect_42_ul_qfy_2dg_2jc" nd:nd-id="ul_qfy_2dg_2jc"><li class="- topic/li ">Test one alternative bottom surface pattern, such as Concentric or Zigzag, on the same
+          model.</li></ul>
+    </p>
+  </body>
+</topic><topic class="- topic/topic " id="unique_48" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_5" oid="check_the_result_5" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_48_Connect_42_ul_q2s_5wm_2jc" nd:nd-id="ul_q2s_5wm_2jc"><li class="- topic/li ">Test only one alternative bottom surface pattern on the same model.</li><li class="- topic/li ">If edge lifting is reduced under the same printing conditions, stop here and keep
+                the tested bottom surface pattern for this model.</li><li class="- topic/li ">If the result does not improve, return to the previous pattern before testing
+                another slicer setting.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_49" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-6" oid="notes-6" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <ul class="- topic/ul "><li class="- topic/li ">On some flat parts, line-based paths may create longer continuous stress paths across the
+        base.</li><li class="- topic/li ">No bottom surface pattern works best for every model.</li></ul>
+  </body>
+</topic></topic><topic class="- topic/topic " id="unique_50" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="infill-pattern-may-affect-internal-stress-behavior" oid="infill-pattern-may-affect-internal-stress-behavior" specializations="@props/deliveryTarget">
+      <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Infill pattern may affect internal stress behavior</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+      <body class="- topic/body "/>
+      
+      
+      
+      
+    <topic class="- topic/topic " id="unique_51" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="cause-7" oid="cause-7" specializations="@props/deliveryTarget">
+        <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cause</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+        <body class="- topic/body ">
+          <p class="- topic/p ">The infill pattern may affect how cooling stress builds inside the part after the base is already attached.</p>
+        </body>
+      </topic><topic class="- topic/topic " id="unique_52" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="common-symptoms-7" oid="common-symptoms-7" specializations="@props/deliveryTarget">
+        <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Common symptoms</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+        <body class="- topic/body ">
+          <ul class="- topic/ul "><li class="- topic/li ">Minor warping remains after first-layer correction and brim use.</li><li class="- topic/li ">The base adheres well at first, but warping develops as the print grows taller.</li></ul>
+        </body>
+      </topic><topic class="- topic/topic " id="unique_53" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="recommended-action-7" oid="recommended-action-7" specializations="@props/deliveryTarget">
+        <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Recommended action</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+        <body class="- topic/body ">
+          <ul class="- topic/ul "><li class="- topic/li ">Test an alternative infill pattern on the same model.</li></ul>
+        </body>
+      </topic><topic class="- topic/topic " id="unique_54" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="check_the_result_6" oid="check_the_result_6" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Check the result</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <ul class="- topic/ul " id="unique_54_Connect_42_ul_dp2_wwm_2jc" nd:nd-id="ul_dp2_wwm_2jc"><li class="- topic/li ">Test only one alternative infill pattern on the same model.</li><li class="- topic/li ">If minor warping is reduced after the base has already adhered, stop here and keep
+                the tested infill pattern for this model.</li><li class="- topic/li ">If the result does not improve, return to the previous infill pattern before testing
+                another slicer setting.</li></ul>
+    </body>
+</topic><topic class="- topic/topic " id="unique_55" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="notes-7" oid="notes-7" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Notes</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <ul class="- topic/ul "><li class="- topic/li ">Some infill patterns create longer crossing paths or a different material distribution
+        inside the part.</li><li class="- topic/li ">Results vary by model.</li></ul>
+    <fig class="- topic/fig " id="unique_55_Connect_42_fig_infill_pattern" nd:nd-id="fig_infill_pattern"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Internal patterns can change how stress paths are distributed inside a part.</ph></title><image align="center" class="- topic/image " dita-ot:image-width="1448" dita-ot:image-height="1086" href="file:/Users/joy/vscode/3d%20printer/dita/Infill_pattern_comparison.png" placement="break" scale="30">
+        <alt class="- topic/alt ">A simplified comparison of path layouts on a flat printed part, showing that different
+          bottom and internal path strategies can distribute stress in different ways.</alt>
+      </image></fig>
+  </body>
+</topic></topic></topic><topic class="- topic/topic " id="unique_56" topicrefclass="- map/topicref " nd:nd-id="if-the-problem-persists" oid="if-the-problem-persists" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">If the problem persists</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">If edge lifting continues after the basic checks, stop changing slicer settings and narrow
+      down the next likely cause.</p>
+  </body>
+<topic class="- topic/topic " id="unique_57" topicrefclass="- map/topicref " nd:nd-id="escalation_table" oid="escalation_table" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Escalation table</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <table class="- topic/table " colsep="1" frame="all" id="unique_57_Connect_42_table_lmb_3ym_2jc" nd:nd-id="table_lmb_3ym_2jc" rowsep="1">
+            <tgroup class="- topic/tgroup " cols="3">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;8:53" xtrf="file:/Users/joy/vscode/3d%20printer/dita/escalation_table.dita"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;9:53" xtrf="file:/Users/joy/vscode/3d%20printer/dita/escalation_table.dita"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" xtrc="colspec:3;10:53" xtrf="file:/Users/joy/vscode/3d%20printer/dita/escalation_table.dita"/>
+                <thead class="- topic/thead ">
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">If this happens</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Next area</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1">Action</entry></row>
+                </thead>
+                <tbody class="- topic/tbody ">
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">First-layer lines still look uneven</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">First-layer calibration</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2">Follow the printer-specific calibration workflow</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">No extrusion or failed startup appears</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Printer startup</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3">Check printer startup guidance</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">The build plate cannot hold the target temperature</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Temperature control</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4">Check hardware guidance</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">The build plate is damaged, loose, or heavily worn</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">Build plate condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5">Fix the build plate first</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">The same PLA spool fails on simple models</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">Filament condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6">Try a known good PLA spool</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">Only one model fails repeatedly</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">Model geometry</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7">Review orientation and shape</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">The same setup fails inconsistently</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">Airflow or surface condition</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8">Check airflow and clean the build plate again</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9">Large flat models still fail after the basic checks</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9">Secondary slicer settings</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9">Test one secondary slicer adjustment at a time</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10">The issue starts after a slicer profile change</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10">Slicer profile</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="10">Compare with a known good profile</entry></row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p class="- topic/p ">Stop here if the issue appears to be hardware-related. Follow printer-specific or
+            slicer-specific documentation before making more changes.</p>
+    </body>
+</topic></topic></topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_58" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="why-pla-prints-develop-edge-lifting-and-minor-warping" oid="why-pla-prints-develop-edge-lifting-and-minor-warping" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Why PLA prints develop edge lifting and minor warping</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+
+  
+  
+  
+  
+  
+<topic class="- topic/topic " id="unique_59" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="why-the-problem-happens" oid="why-the-problem-happens" specializations="@props/deliveryTarget">
+  <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Why the problem happens</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+  <body class="- topic/body ">
+    <p class="- topic/p ">PLA cools and shrinks slightly as each layer is deposited. That shrinkage creates an upward
+      pulling force on the lower edges of the part.</p>
+    <p class="- topic/p ">The build plate must hold the part down while this happens. When the shrinkage force becomes
+      stronger than build plate adhesion, the edges begin to lift.</p>
+    <fig class="- topic/fig " id="unique_59_Connect_42_fig_explanation" nd:nd-id="fig_explanation"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Edge lifting begins when cooling shrinkage overcomes build plate adhesion at the edge.</ph></title><image align="center" class="- topic/image " dita-ot:image-width="1448" dita-ot:image-height="1086" href="file:/Users/joy/vscode/3d%20printer/dita/the_basic_mechanism_of_warping.png" placement="break" scale="30">
+        <alt class="- topic/alt ">A simple diagram of a printed part on a build plate, with arrows showing upward pulling
+          force from cooling shrinkage and downward holding force from build plate adhesion.</alt>
+      </image></fig>
+  </body>
+</topic><topic class="- topic/topic " id="unique_60" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="why-corners-usually-lift-first" oid="why-corners-usually-lift-first" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Why corners usually lift first</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+      <p class="- topic/p ">Corners often lift first because they have less surrounding material and more exposure to open-air cooling. Once a corner lifts, the nearby edge often follows.</p>
+    </body>
+  </topic><topic class="- topic/topic " id="unique_61" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="why-large-flat-parts-warp-more-easily" oid="why-large-flat-parts-warp-more-easily" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Why large flat parts warp more easily</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+      <p class="- topic/p ">Large flat parts create more total shrinkage stress as PLA cools.</p>
+      <p class="- topic/p ">Long straight edges can also accumulate stress in one direction. This can make the lower perimeter more likely to pull away from the build plate.</p>
+      <p class="- topic/p ">For that reason, parts that look simple because they have a large flat base may actually be harder to keep fully attached during printing.</p>
+    </body>
+  </topic><topic class="- topic/topic " id="unique_62" topicrefclass="- map/topicref " topicreftoc="no" nd:nd-id="why-the-first-layers-matter-most" oid="why-the-first-layers-matter-most" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Why the first layers matter most</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+      <p class="- topic/p ">The first layers determine how well the rest of the part stays anchored to the build plate.</p>
+      <p class="- topic/p ">If first-layer contact is weak, later shrinkage forces become more visible. As the print grows taller, the lower edges may be pulled upward more easily.</p>
+      <p class="- topic/p ">For that reason, edge lifting and minor warping often begin as an early first-layer problem, even when the print continues for some time afterward.</p>
+    </body>
+  </topic></topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_63" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="key-terms-for-pla-edge-lifting-troubleshooting" oid="key-terms-for-pla-edge-lifting-troubleshooting" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Key terms for PLA edge lifting troubleshooting</ph></title><prolog class="- topic/prolog "><author class="- topic/author ">Xinyue Chen</author><critdates class="- topic/critdates ">
+            <revised class="- topic/revised " modified="2026-05-08"/>
+        </critdates><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
+            <prodname class="- topic/prodname ">Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist class="- topic/vrmlist ">
+                <vrm class="- topic/vrm " version="3.5"/>
+            </vrmlist>
+        </prodinfo></metadata></prolog>
+    <body class="- topic/body ">
+        <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+            <tgroup class="- topic/tgroup " cols="2">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;9:42" xtrf="file:/Users/joy/vscode/3d%20printer/dita/reference-key-terms.dita"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;10:42" xtrf="file:/Users/joy/vscode/3d%20printer/dita/reference-key-terms.dita"/>
+                <thead class="- topic/thead ">
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Term</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Definition</entry></row>
+                </thead>
+                <tbody class="- topic/tbody ">
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">First layer</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">The first printed layer placed directly onto the build plate. Its
+                            quality affects how well the rest of the part stays attached during
+                            printing.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">First-layer calibration</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">The process of checking and adjusting first-layer contact so that the
+                            printed lines bond correctly to the build plate.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">Build plate adhesion</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">The ability of a printed part to stay attached to the build plate
+                            while it is being printed.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">Brim</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">A thin ring of extra printed material added around the base of a part
+                            to increase contact area.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">Z-offset</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">A printer setting that adjusts the nozzle height relative to the
+                            build plate. It is often used to fine-tune first-layer contact.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">Build surface profile</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">The slicer or printer setting that matches the installed build
+                            surface or plate type.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">Bottom surface pattern</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">The path strategy used for the solid bottom layers where the print
+                            meets the build plate.</entry></row>
+                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9">Infill pattern</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9">The path pattern used to print the internal support structure inside
+                            a part.</entry></row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Note:</b> Bottom surface pattern affects the solid lower surface. Infill pattern
+            affects the internal structure.</p>
+    </body>
+</topic></bookmap>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="when-this-guide-does-not-apply">
+  <title>When this guide does not apply</title>
+  <body>
+    <p>Check the conditions below to confirm whether this troubleshooting path applies to your case.</p>
+    <p>If the printer, material, and failure condition match the conditions below, continue with <b>Fix edge lifting and minor warping in PLA prints</b>.</p>
+  </body>
+  
+</topic>

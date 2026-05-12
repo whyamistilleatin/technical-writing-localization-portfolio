@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action-2">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>For PLA on a heated bed, 50–60°C is a common reference range. If  the manufacturer
+        recommends a different value, follow that value.</li>
+      <li>
+        <p>If corners lift after the print starts and the current value is near the lower end of the
+          recommended range, test a slightly higher build plate temperature under the same
+          conditions.</p>
+      </li>
+        </ul>
+      </body>
+    </topic>

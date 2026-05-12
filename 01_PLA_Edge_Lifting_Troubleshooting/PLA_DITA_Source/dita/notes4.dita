@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-4">
+      <title>Notes</title>
+      <body>
+        <ul>
+          <li>For PLA printing, a full enclosure is not required in many normal cases.</li>
+          <li>Small changes in airflow can still affect build plate adhesion, especially on larger flat parts.</li>
+          <li>More stable room conditions may help reduce repeated edge lifting.</li>
+        </ul>
+      </body>
+    </topic>

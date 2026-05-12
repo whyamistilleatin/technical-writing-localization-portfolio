@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_5">
+    <title>Check the result</title>
+    <body>
+        <ul id="ul_q2s_5wm_2jc">
+            <li>Test only one alternative bottom surface pattern on the same model.</li>
+            <li>If edge lifting is reduced under the same printing conditions, stop here and keep
+                the tested bottom surface pattern for this model.</li>
+            <li>If the result does not improve, return to the previous pattern before testing
+                another slicer setting.</li>
+        </ul>
+    </body>
+</topic>

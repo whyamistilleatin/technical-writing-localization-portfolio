@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Before You Begin: Scope and Applicability</title>
+    <topicref href="before_you_begin_scope_and_applicability.dita">
+        <topicref href="scope_decision_table_1776200239983.559.dita"/>
+    </topicref>
+</map>

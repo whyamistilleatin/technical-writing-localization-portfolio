@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="if-the-problem-persists">
+  <title>If the problem persists</title>
+  <body>
+    <p>If edge lifting continues after the basic checks, stop changing slicer settings and narrow
+      down the next likely cause.</p>
+  </body>
+</topic>

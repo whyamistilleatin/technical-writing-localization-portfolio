@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notes-1">
+  <title>Notes</title>
+  <body>
+    <ul>
+      <li>A first-layer calibration print or first-layer test print is usually a more reliable way to confirm contact.</li>
+    </ul>
+    
+    <fig id="fig_first_layer_comparison">
+      <title>First-layer line shape changes when the nozzle is too high, correctly set, or too low.</title>
+      <image href="first_layer_comparison.png" placement="break" align="center" width="350">
+        <alt>Three side-by-side examples of first-layer extrusion showing a nozzle position that is too high, correct, and too low.</alt>
+      </image>
+    </fig>
+  </body>
+</topic>

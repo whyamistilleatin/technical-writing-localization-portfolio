@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_0">
+    <title>Check the result</title>
+    <body>
+        <p>
+            <ul id="ul_ocs_jvn_2jc">
+                <li>Restart the same print or run the same first-layer test under the same
+                    conditions.</li>
+            </ul>
+        </p>
+        <p>
+            <ul id="ul_rvy_jvn_2jc">
+                <li>If the first layer stays attached across the print area, stop here and keep the
+                    build plate preparation method.</li>
+            </ul>
+        </p>
+        <p>
+            <ul id="ul_trc_kvn_2jc">
+                <li>If adhesion is still inconsistent, continue to first-layer height or bed
+                    leveling checks.</li>
+            </ul>
+        </p>
+    </body>
+</topic>

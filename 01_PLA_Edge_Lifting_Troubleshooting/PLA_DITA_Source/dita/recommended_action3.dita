@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action-3">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>Add a brim to increase contact area around the model.</li>
+          <li>Start with the slicer’s default brim setting or a narrow brim, and increase the width one step at a time only if edge lifting continues.</li>
+          <li>Use a brim before moving to more advanced slicer changes.</li>
+        </ul>
+      </body>
+    </topic>

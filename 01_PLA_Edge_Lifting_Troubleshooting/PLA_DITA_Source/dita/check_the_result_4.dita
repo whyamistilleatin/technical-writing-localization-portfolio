@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="check_the_result_4">
+    <title>Check the result</title>
+    <body>
+        <ul id="ul_lpn_4wm_2jc">
+            <li>Test the same model in the revised orientation when possible.</li>
+            <li>If edge lifting is reduced under the same printing conditions, stop here and use the
+                revised orientation for this model.</li>
+            <li>If orientation changes do not reduce lifting, return to the basic adhesion checks or
+                consider model-specific design changes.</li>
+        </ul>
+    </body>
+</topic>

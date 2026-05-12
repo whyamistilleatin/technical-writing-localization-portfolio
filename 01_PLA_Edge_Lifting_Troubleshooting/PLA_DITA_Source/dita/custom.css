@@ -1,0 +1,107 @@
+/* 关闭表格单元格中的自动断字 */
+*[class~="topic/entry"] {
+    hyphens: none !important;
+    /* 建议同时将对齐方式改为左对齐，因为两端对齐在没有断字的情况下容易产生巨大的单词间距 */
+    text-align: left !important; 
+}
+
+@page :left {
+  @top-left {
+    content: "PLA Edge Lifting Troubleshooting Guide";
+    font-size: 8pt;
+    color: #666666;
+  }
+
+  @top-center {
+    content: none;
+  }
+
+  @top-right {
+    content: none;
+  }
+
+  @bottom-center {
+    content: counter(page);
+    font-size: 8pt;
+    color: #666666;
+  }
+}
+
+@page :right {
+  @top-left {
+    content: none;
+  }
+
+  @top-center {
+    content: none;
+  }
+
+  @top-right {
+    content: "PLA Edge Lifting Troubleshooting Guide";
+    font-size: 8pt;
+    color: #666666;
+  }
+
+  @bottom-center {
+    content: counter(page);
+    font-size: 8pt;
+    color: #666666;
+  }
+}
+
+/* ===== Dynamic portfolio cover metadata from bookmap ===== */
+
+/* ===== Cover title ===== */
+
+*[class ~= "front-page/front-page-title"] {
+    margin-top: 1.2in !important;
+    text-align: center;
+}
+
+/* Optional: make the title a little cleaner */
+*[class ~= "front-page/front-page-title"] * {
+    text-align: center;
+}
+
+/* ===== Cover page layout and bottom metadata ===== */
+
+@page front-page {
+    /* Leave enough space for the metadata block at the bottom */
+    margin-top: 0.8in;
+    margin-left: 0.8in;
+    margin-right: 0.8in;
+    margin-bottom: 1.7in;
+
+    @bottom-center {
+        content:
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="portfolio-label"]/@value)[1])')
+            "\A\A"
+            "Document type: "
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="document-type"]/@value)[1])')
+            "\A"
+            "Audience: "
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="audience"]/@value)[1])')
+            "\A"
+            "Material: "
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="material"]/@value)[1])')
+            "\A"
+            "Format: "
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="format"]/@value)[1])')
+            "\A"
+            "Tool: "
+            oxy_xpath('string((//*[contains(@class, " bookmap/bookmeta ")]//*[contains(@class, " topic/data ")][@name="tool"]/@value)[1])')
+            "\A"
+            "Version: "
+            oxy_xpath('string((//*[contains(@class, " topic/vrm ")]/@version)[1])')
+            "\A"
+            "Last updated: "
+            oxy_xpath('string((//*[contains(@class, " topic/revised ")]/@modified)[1])');
+
+        white-space: pre-line;
+        text-align: center;
+        font-size: 9pt;
+        line-height: 1.45;
+        font-weight: normal;
+        color: #444444;
+    }
+}

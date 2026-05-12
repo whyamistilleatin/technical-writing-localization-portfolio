@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="why-the-problem-happens">
+  <title>Why the problem happens</title>
+  <body>
+    <p>PLA cools and shrinks slightly as each layer is deposited. That shrinkage creates an upward
+      pulling force on the lower edges of the part.</p>
+    <p>The build plate must hold the part down while this happens. When the shrinkage force becomes
+      stronger than build plate adhesion, the edges begin to lift.</p>
+    <fig id="fig_explanation">
+      <title>Edge lifting begins when cooling shrinkage overcomes build plate adhesion at the edge.</title>
+      <image href="the_basic_mechanism_of_warping.png" placement="break" align="center" scale="30">
+        <alt>A simple diagram of a printed part on a build plate, with arrows showing upward pulling
+          force from cooling shrinkage and downward holding force from build plate adhesion.</alt>
+      </image>
+    </fig>
+  </body>
+</topic>

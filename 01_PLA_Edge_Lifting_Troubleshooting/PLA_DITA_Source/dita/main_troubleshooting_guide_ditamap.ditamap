@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Troubleshooting Edge Lifting and Minor Warping in Entry-Level PLA FDM
+            Printing</mainbooktitle>
+    </booktitle>
+    
+    <bookmeta>
+        <author>Xinyue Chen</author>
+        
+        <critdates>
+            <revised modified="2026-05-08"/>
+        </critdates>
+        
+        <metadata>
+            <data name="portfolio-label" value="Portfolio sample by Xinyue Chen"/>
+            <data name="document-type" value="Troubleshooting guide"/>
+            <data name="audience" value="Entry-level desktop FDM printer users"/>
+            <data name="material" value="PLA filament"/>
+            <data name="format" value="DITA-based documentation sample"/>
+            <data name="tool" value="Oxygen XML Author, VS Code"/>
+        </metadata>
+        
+        <prodinfo>
+            <prodname>Troubleshooting Edge Lifting and Minor Warping</prodname>
+            <vrmlist>
+                <vrm version="3.5"/>
+            </vrmlist>
+        </prodinfo>
+    </bookmeta>
+    
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    
+    <chapter href="../reference-scope.ditamap" format="ditamap"/>
+    <chapter href="reference-quick-checklist.ditamap" format="ditamap"/>
+    <chapter href="troubleshooting-fix-edge-lifting.ditamap" format="ditamap"/>
+    <chapter href="concept-why-edge-lifting-happens.ditamap" format="ditamap"/>
+    <chapter href="reference-key-terms.dita"/>
+</bookmap>

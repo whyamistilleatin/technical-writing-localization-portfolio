@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scope-decision-table">
+    <title>Scope decision table</title>
+    <body>
+      <table colsep="1" rowsep="1" frame="all">
+      <tgroup cols="3">
+        <colspec colname="col1"/>
+        <colspec colname="col2"/>
+        <colspec colname="col3"/>
+        <thead>
+          <row>
+            <entry>Condition</entry>
+            <entry>In scope?</entry>
+            <entry>What to do</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Entry-level desktop FDM printer</entry>
+            <entry>Yes</entry>
+            <entry>Continue with this troubleshooting path.</entry>
+          </row>
+          <row>
+            <entry>Flat heated build plate</entry>
+            <entry>Yes</entry>
+            <entry>Continue with this troubleshooting path.</entry>
+          </row>
+          <row>
+            <entry>PLA filament</entry>
+            <entry>Yes</entry>
+            <entry>Continue with this troubleshooting path.</entry>
+          </row>
+          <row>
+            <entry>Print starts normally but develops edge lifting or minor warping during
+              printing</entry>
+            <entry>Yes</entry>
+            <entry>Continue with this troubleshooting path.</entry>
+          </row>
+          <row>
+            <entry>Non-PLA material</entry>
+            <entry>No</entry>
+            <entry>Use a material-specific guide instead.</entry>
+          </row>
+          <row>
+            <entry>Resin printer</entry>
+            <entry>No</entry>
+            <entry>Use a printer-specific guide instead.</entry>
+          </row>
+          <row>
+            <entry>Printer without a heated build plate</entry>
+            <entry>No</entry>
+            <entry>Use a guide that matches that hardware setup.</entry>
+          </row>
+          <row>
+            <entry>Printer cannot maintain normal nozzle or build plate temperature</entry>
+            <entry>No</entry>
+            <entry>Stop this path and use a hardware-specific guide.</entry>
+          </row>
+          <row>
+            <entry>Filament does not extrude normally</entry>
+            <entry>No</entry>
+            <entry>Stop this path and use a hardware-specific guide.</entry>
+          </row>
+          <row>
+            <entry>Build plate is visibly damaged or unstable</entry>
+            <entry>No</entry>
+            <entry>Stop this path and use a hardware-specific guide.</entry>
+          </row>
+          <row>
+            <entry>Printer shows clear mechanical looseness, assembly problems, or repeated
+              hardware-related instability</entry>
+            <entry>No</entry>
+            <entry>Stop this path and use a hardware-specific guide.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+      <p>If manufacturer documentation conflicts with this troubleshooting guidance, follow the manufacturer documentation.</p>
+    </body>
+  </topic>

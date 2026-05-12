@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="confirm-the-starting-conditions">
+    <title>Confirm the starting conditions</title>
+    <body>
+      <p>Before you troubleshoot, make sure that all of the following are true:</p>
+      <ul>
+        <li>The printer can complete a normal PLA print start sequence.</li>
+        <li>PLA filament is loaded correctly.</li>
+        <li>A basic PLA slicing profile is already selected.</li>
+        <li>Basic bed leveling or first-layer calibration has already been completed.</li>
+        <li>No obvious hardware fault is present.</li>
+      </ul>
+      <p>The printer should already be operational. For setup, repair, or service procedures, follow the manufacturer's documentation.</p>
+    </body>
+  </topic>

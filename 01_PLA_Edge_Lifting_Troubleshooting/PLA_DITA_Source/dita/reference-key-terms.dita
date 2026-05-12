@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="key-terms-for-pla-edge-lifting-troubleshooting">
+    <title>Key terms for PLA edge lifting troubleshooting</title>
+    <body>
+        <table colsep="1" rowsep="1" frame="all">
+            <tgroup cols="2">
+                <colspec colname="col1"/>
+                <colspec colname="col2"/>
+                <thead>
+                    <row>
+                        <entry>Term</entry>
+                        <entry>Definition</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>First layer</entry>
+                        <entry>The first printed layer placed directly onto the build plate. Its
+                            quality affects how well the rest of the part stays attached during
+                            printing.</entry>
+                    </row>
+                    <row>
+                        <entry>First-layer calibration</entry>
+                        <entry>The process of checking and adjusting first-layer contact so that the
+                            printed lines bond correctly to the build plate.</entry>
+                    </row>
+                    <row>
+                        <entry>Build plate adhesion</entry>
+                        <entry>The ability of a printed part to stay attached to the build plate
+                            while it is being printed.</entry>
+                    </row>
+                    <row>
+                        <entry>Brim</entry>
+                        <entry>A thin ring of extra printed material added around the base of a part
+                            to increase contact area.</entry>
+                    </row>
+                    <row>
+                        <entry>Z-offset</entry>
+                        <entry>A printer setting that adjusts the nozzle height relative to the
+                            build plate. It is often used to fine-tune first-layer contact.</entry>
+                    </row>
+                    <row>
+                        <entry>Build surface profile</entry>
+                        <entry>The slicer or printer setting that matches the installed build
+                            surface or plate type.</entry>
+                    </row>
+                    <row>
+                        <entry>Bottom surface pattern</entry>
+                        <entry>The path strategy used for the solid bottom layers where the print
+                            meets the build plate.</entry>
+                    </row>
+                    <row>
+                        <entry>Infill pattern</entry>
+                        <entry>The path pattern used to print the internal support structure inside
+                            a part.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p><b>Note:</b> Bottom surface pattern affects the solid lower surface. Infill pattern
+            affects the internal structure.</p>
+    </body>
+</topic>

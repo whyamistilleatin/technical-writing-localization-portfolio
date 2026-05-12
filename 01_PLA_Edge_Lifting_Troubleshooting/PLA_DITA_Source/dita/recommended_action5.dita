@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="recommended-action-5">
+      <title>Recommended action</title>
+      <body>
+        <ul>
+          <li>Reconsider the print orientation if possible.</li>
+      <li>Avoid placing long straight edges directly along the build plate when another orientation
+        is possible.</li>
+          <li>Reduce long exposed edge length when the model allows it.</li>
+        </ul>
+      </body>
+    </topic>

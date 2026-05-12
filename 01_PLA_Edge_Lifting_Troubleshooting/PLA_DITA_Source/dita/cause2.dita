@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cause-2">
+      <title>Cause</title>
+      <body>
+        <p>If the build plate is too cool, the first layer may not bond strongly enough to resist
+      shrinkage stress at the edges. If the build plate temperature is unstable, adhesion may also
+      become less consistent during printing.</p>
+      </body>
+    </topic>

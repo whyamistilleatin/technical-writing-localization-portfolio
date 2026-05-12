@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="escalation_table">
+    <title>Escalation table</title>
+    <body>
+        <table frame="all" rowsep="1" colsep="1" id="table_lmb_3ym_2jc">
+            <tgroup cols="3">
+                <colspec colnum="1" colname="col1"/>
+                <colspec colnum="2" colname="col2"/>
+                <colspec colnum="3" colname="col3"/>
+                <thead>
+                    <row>
+                        <entry>If this happens</entry>
+                        <entry>Next area</entry>
+                        <entry>Action</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>First-layer lines still look uneven</entry>
+                        <entry>First-layer calibration</entry>
+                        <entry>Follow the printer-specific calibration workflow</entry>
+                    </row>
+                    <row>
+                        <entry>No extrusion or failed startup appears</entry>
+                        <entry>Printer startup</entry>
+                        <entry>Check printer startup guidance</entry>
+                    </row>
+                    <row>
+                        <entry>The build plate cannot hold the target temperature</entry>
+                        <entry>Temperature control</entry>
+                        <entry>Check hardware guidance</entry>
+                    </row>
+                    <row>
+                        <entry>The build plate is damaged, loose, or heavily worn</entry>
+                        <entry>Build plate condition</entry>
+                        <entry>Fix the build plate first</entry>
+                    </row>
+                    <row>
+                        <entry>The same PLA spool fails on simple models</entry>
+                        <entry>Filament condition</entry>
+                        <entry>Try a known good PLA spool</entry>
+                    </row>
+                    <row>
+                        <entry>Only one model fails repeatedly</entry>
+                        <entry>Model geometry</entry>
+                        <entry>Review orientation and shape</entry>
+                    </row>
+                    <row>
+                        <entry>The same setup fails inconsistently</entry>
+                        <entry>Airflow or surface condition</entry>
+                        <entry>Check airflow and clean the build plate again</entry>
+                    </row>
+                    <row>
+                        <entry>Large flat models still fail after the basic checks</entry>
+                        <entry>Secondary slicer settings</entry>
+                        <entry>Test one secondary slicer adjustment at a time</entry>
+                    </row>
+                    <row>
+                        <entry>The issue starts after a slicer profile change</entry>
+                        <entry>Slicer profile</entry>
+                        <entry>Compare with a known good profile</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>Stop here if the issue appears to be hardware-related. Follow printer-specific or
+            slicer-specific documentation before making more changes.</p>
+    </body>
+</topic>

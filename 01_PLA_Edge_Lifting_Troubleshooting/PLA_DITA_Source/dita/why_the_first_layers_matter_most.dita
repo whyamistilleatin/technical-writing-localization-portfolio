@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="why-the-first-layers-matter-most">
+    <title>Why the first layers matter most</title>
+    <body>
+      <p>The first layers determine how well the rest of the part stays anchored to the build plate.</p>
+      <p>If first-layer contact is weak, later shrinkage forces become more visible. As the print grows taller, the lower edges may be pulled upward more easily.</p>
+      <p>For that reason, edge lifting and minor warping often begin as an early first-layer problem, even when the print continues for some time afterward.</p>
+    </body>
+  </topic>

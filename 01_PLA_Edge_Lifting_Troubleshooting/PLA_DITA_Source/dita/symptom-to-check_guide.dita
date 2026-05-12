@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="symptom-to-check-guide">
+  <title>Symptom-to-check guide</title>
+  <body>
+    <table colsep="1" rowsep="1" frame="all">
+      <tgroup cols="3">
+        <colspec colname="col1"/>
+        <colspec colname="col2"/>
+        <colspec colname="newCol3"/>
+        <thead>
+          <row>
+            <entry>If you see this</entry>
+            <entry>Check this first</entry>
+            <entry>Go to </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Adhesion is inconsistent across the build plate</entry>
+            <entry>Build plate condition</entry>
+            <entry><xref href="build_plate_surface_is_dirty_or_poorly_prepared.dita">Build plate surface</xref></entry>
+          </row>
+          <row>
+            <entry>Small prints lift even when settings appear normal </entry>
+            <entry>Build plate condition</entry>
+            <entry><xref href="build_plate_surface_is_dirty_or_poorly_prepared.dita">Build plate surface</xref></entry>
+          </row>
+          <row>
+            <entry>One corner lifts more than the others</entry>
+            <entry>Airflow and uneven cooling</entry>
+            <entry><xref href="airflow_or_room_conditions_cause_uneven_cooling.dita">Airflow and room conditions</xref></entry>
+          </row>
+          <row>
+            <entry>One side of the model sticks better than the other</entry>
+            <entry>First-layer calibration and bed leveling</entry>
+            <entry><xref href="first-layer_height_or_bed_leveling_is_incorrect.dita">First-layer height</xref></entry>
+          </row>
+          <row>
+            <entry>Large flat models fail after a normal start</entry>
+            <entry>Build plate temperature, edge adhesion, and part geometry</entry>
+            <entry><xref href="build_plate_temperature_is_too_low_or_unstable.dita">Build plate
+                temperature</xref>, <xref href="edge_adhesion_is_insufficient.dita">Edge
+                adhesion</xref>, then <xref
+                  href="part_geometry_or_orientation_increases_shrinkage_stress.dita">Part geometry</xref></entry>
+          </row>
+          <row>
+            <entry>Narrow-base parts detach more easily</entry>
+            <entry>Edge adhesion</entry>
+            <entry><xref href="edge_adhesion_is_insufficient.dita">Edge adhesion</xref></entry>
+          </row>
+          <row>
+            <entry>The same model sometimes succeeds and sometimes fails</entry>
+            <entry>Room conditions and airflow</entry>
+            <entry><xref href="airflow_or_room_conditions_cause_uneven_cooling.dita">Airflow and room conditions</xref></entry>
+          </row>
+          <row>
+            <entry>Large flat models still fail after all basic checks</entry>
+            <entry>Secondary slicer settings such as bottom surface pattern or infill
+              pattern</entry>
+            <entry><xref href="use_secondary_slicer_adjustments_only_after_the_basic_checks.dita"
+            >Secondary slicer adjustments</xref></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>If your situation matches more than one row, start from the earliest step in the recommended
+      troubleshooting order.</p>
+  </body>
+</topic>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scope-decision-table">
+  <title>Scope decision table</title>
+  <body>
+    <table colsep="1" rowsep="1" frame="all">
+      <tgroup cols="3">
+        <colspec colname="col1"/>
+        <colspec colname="col2"/>
+        <colspec colname="col3"/>
+        <thead>
+          <row>
+            <entry>Condition</entry>
+            <entry>Use this guide?</entry>
+            <entry>What to do next</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Entry-level desktop FDM printer</entry>
+            <entry>Yes</entry>
+            <entry>Continue</entry>
+          </row>
+          <row>
+            <entry>Flat heated build plate</entry>
+            <entry>Yes</entry>
+            <entry>Continue</entry>
+          </row>
+          <row>
+            <entry>PLA filament</entry>
+            <entry>Yes</entry>
+            <entry>Continue</entry>
+          </row>
+          <row>
+            <entry>Edge or corner lifting during printing</entry>
+            <entry>Yes</entry>
+            <entry>Continue</entry>
+          </row>
+          <row>
+            <entry>Full detachment in the first layers</entry>
+            <entry>Partly</entry>
+            <entry>Start with first-layer checks</entry>
+          </row>
+          <row>
+            <entry>One model fails repeatedly</entry>
+            <entry>Partly</entry>
+            <entry>Check geometry after basic checks</entry>
+          </row>
+          <row>
+            <entry>No extrusion or failed startup</entry>
+            <entry>No</entry>
+            <entry>Check printer startup first</entry>
+          </row>
+          <row>
+            <entry>Temperature error, failed heating, or unstable hardware temperature</entry>
+            <entry>No</entry>
+            <entry>Check printer-specific hardware guidance</entry>
+          </row>
+          <row>
+            <entry>Damaged or loose build plate</entry>
+            <entry>No</entry>
+            <entry>Fix the build plate first</entry>
+          </row>
+          <row>
+            <entry>Non-PLA material</entry>
+            <entry>No</entry>
+            <entry>Use material-specific guidance</entry>
+          </row>
+          <row>
+            <entry>Resin printer</entry>
+            <entry>No</entry>
+            <entry>Use resin-printing guidance</entry>
+          </row>
+          <row>
+            <entry>Manufacturer guidance conflicts with this guide</entry>
+            <entry>No</entry>
+            <entry>Follow manufacturer guidance</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>If more than one condition applies, address any hardware, temperature-control, or build plate
+      issue before changing slicer settings. Follow manufacturer documentation when it provides
+      product-specific instructions.</p>
+  </body>
+</topic>
